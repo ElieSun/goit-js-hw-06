@@ -22,3 +22,29 @@ button {
   padding: 8px 12px;
   cursor: pointer;
 }
+
+.pretty {
+  display: flex;
+  
+  justify-content: space-between; 
+  align-items: center; 
+  /* flex-flow: row nowrap; */ 
+  flex-direction: row; 
+  flex-wrap: nowrap; 
+  align-content: flex-start;
+  height: 100%;
+  padding: 15px;
+  gap: 5px;
+  list-style: none;
+}
+
+.pretty img {
+  width: 100%;
+}
+.flex-pretty > li{
+  border: 3px solid #ffcc80;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+
